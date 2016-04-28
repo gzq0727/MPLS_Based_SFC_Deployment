@@ -1,0 +1,5 @@
+Srcip:10.0.0.1	Dstip:10.0.0.4	SFC:LB>IDS>FW
+Srcip:10.0.0.7	Dstip:10.0.0.5	SFC:LB>IDS>FW
+Srcip:10.0.0.3	Dstip:10.0.0.5	SFC:LB>FW>IDS>IPS
+Srcip:10.0.0.2	Dstip:10.0.0.4	SFC:LB
+Srcip:10.0.0.2	Dstip:10.0.0.6	SFC:LB>IPS>FW

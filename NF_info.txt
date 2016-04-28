@@ -1,0 +1,7 @@
+Type:FW	Name:FW1	ConnectSwitch:7	ConnSwPort:2
+Type:FW	Name:FW2	ConnectSwitch:8	ConnSwPort:5
+Type:LB	Name:LB1	ConnectSwitch:4	ConnSwPort:5
+Type:LB	Name:LB2	ConnectSwitch:3	ConnSwPort:5
+Type:IDS	Name:IDS1	ConnectSwitch:5	ConnSwPort:4
+Type:IDS	Name:IDS2	ConnectSwitch:8	ConnSwPort:5
+Type:IPS	Name:IPS1	ConnectSwitch:9	ConnSwPort:2
