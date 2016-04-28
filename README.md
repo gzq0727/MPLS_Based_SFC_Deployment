@@ -1,9 +1,14 @@
 # MPLS_Based_SFC_Deployment
 MPLS based Service Chain Deployment Using Ryu controller and mininet
+
 HD_info.txt and NF_info.txt are the input files.HD_info.txt indicates the Service Functions needed of each src-host and dst-host pair.NF_info.txt indicates the detail network function(middlebox) type and location.
+
 SFC_topo.py is the topology we used in this experiment.
+
 Network_aware.py is the module to collect network topology information and calculate all paths between two network nodes.
+
 Network_monitor.py is the module to collect switches' ports statistical information.
+
 SFC_design.py module is the main moudule to deploy Service Chain using MPLS.
 the steps of running:
 1.copy the SFC_topo.py to the directory mininet/custom
